@@ -3107,37 +3107,102 @@
         "affectsGlobalScope": false
       },
       "../src/vehicle/dto/createVehicle.dto.ts": {
-        "version": "fc4f27095402e46f1411c41354af99300bfb150ef16eef60f9b66e129d1216c7",
+        "version": "ee3408e96ddb8b6f7beb41f2e34e71d03237d1a77f5b1ca52397409077f58f9b",
         "signature": "5d3926142a3477a3ee99d2ee65f61fe80a6240333893653b51a0e7a4a6c9147e",
         "affectsGlobalScope": false
       },
+      "../src/vehicle/pipes/fuelTypeValidation.pipe.ts": {
+        "version": "4791a4f8e8fb2f29f5e87e85d7e6e5e68f6650dfc7af1022df3f0287dd2fe3e9",
+        "signature": "9a03512ee5637b09a20fc2c100134222a8d8487ead10bc175cb02ce69a3beb8a",
+        "affectsGlobalScope": false
+      },
+      "../src/vehicle/pipes/vehicleTypeValidation.pipe.ts": {
+        "version": "803676a889bb27db23ffb5dbef684fb7838ac0f49a957ae2c5200cfd8af48e0c",
+        "signature": "7b5574079d942ec156eece220be3a95976d23cc1da09fedd66413ed1376feb75",
+        "affectsGlobalScope": false
+      },
+      "../src/rental/rentalEvent.entity.ts": {
+        "version": "74ed52caa2293446d06e8accad471371e69a21cc6731a4056c8733dedf0c60d6",
+        "signature": "b9c8a18d3dfe61da642fe4e850c256be24dd0e4f6037fe79a16f0c991289bb35",
+        "affectsGlobalScope": false
+      },
+      "../src/customer/customer.entity.ts": {
+        "version": "9693483c3c56551fa6f1f14e7f28ba20826f90b500603beb8065995f8c0c29cf",
+        "signature": "b25b556cae3ba1e13a780d8b0a456cc16d87109a6453e0812bea6d0a17f5af8c",
+        "affectsGlobalScope": false
+      },
       "../src/vehicle/vehicle.entity.ts": {
-        "version": "ab19b672a675387d1aaa21f2c4334da54e8cb3756033e362484e699db64a7934",
-        "signature": "3d29dfbd765d1fe0eb1f4c3dc5ebbffe0bf80b9b6e26e38b5d537d534a44a03c",
+        "version": "2c221f899f232c7a6c6d901db0b40c5c4a28c567c13d758e8b5cc8c2cb9710bf",
+        "signature": "7a8290c3f6bd6b1162e7369a1658b27cf406e4edd4f7d17920cae4e2099b207a",
         "affectsGlobalScope": false
       },
       "../src/vehicle/vehicle.repository.ts": {
-        "version": "d6fd995c965e3bcd2e77a7d2ee3338b730c62641d070ef974b494175946ea5b7",
-        "signature": "9f39bdf8a47eddd1e6d9c095a582b043603fa942fbd0701a85bf356bd3373711",
+        "version": "d9c6268b2739dce2f14805063ba21e9f77eb42aa4121333dc847e75ba029d051",
+        "signature": "6fb77557a8234d9c0360941cc73dbb31a1151dceedcf102231215a4c95336dd6",
         "affectsGlobalScope": false
       },
       "../src/vehicle/vehicle.service.ts": {
-        "version": "b69a0393951e5c39c5cc51ff01edb033f2189d039bdac3dee2755608625dc29e",
-        "signature": "9c40317fcb3f280e1444ce827eb492c3f2cf6b96113dbdd017d2d8e08d227502",
+        "version": "1998d5121cb73c7272548a933f97bf85afdd02d1654c0929d3ac67767f268249",
+        "signature": "5041674257efd7190f7fc192c5394e7299491e5778cd25a82c5d50d1b57bf789",
         "affectsGlobalScope": false
       },
       "../src/vehicle/vehicle.controller.ts": {
-        "version": "3647aa5e5e6f492030e597c7a52b80f249343eb1b81a34bed34368e6a5a24296",
-        "signature": "3ca530a280f7dd3795a65b94a1e9b42f2a0030ee034cb6707b0bf159d5090e67",
+        "version": "91aca7511b5126fa9d1255d0cd7759511055b7b3bee846720ce7d7a1296a43d7",
+        "signature": "bf4de4e78d05ede85fab05fedc5bb71db78acbe28845385984b4e9cbe1db3af7",
+        "affectsGlobalScope": false
+      },
+      "../src/rental/rental.repository.ts": {
+        "version": "ee0fb8fdd61356860e0dc62a63e38622c1e24bf70fde3fbfba3078ff3680da0d",
+        "signature": "08847bacf0e7d41fb0fb39913b3f486e71a08b28104dd880706f0b234e67a182",
+        "affectsGlobalScope": false
+      },
+      "../src/rental/rental.service.ts": {
+        "version": "c315f8bc403a9307b1f7163ddb27265d30750ffba773ad789b5e0b37eb147794",
+        "signature": "7dc6045958b708a99cf7d837bb10dac9fff482391865d5895c2d8328d23f93a0",
+        "affectsGlobalScope": false
+      },
+      "../src/customer/customer.repository.ts": {
+        "version": "d784531c29888f7a0637b58b0caf078cc9180869de7e85cb46e69a24af2c3ae9",
+        "signature": "d7878c8f5246910da4e0d602eb3e6eb1fcbe74700b00bdfef4d2b4389e836401",
+        "affectsGlobalScope": false
+      },
+      "../src/customer/dto/createCustomer.dto.ts": {
+        "version": "3807c8af431dfe412f9bba7dceb88e23e90d5e9615d66f3af174de713e90b2d8",
+        "signature": "f2b693473442a2373bcb8d0c363040c88cdc275dd8fe2163d365fa21a3d1c221",
+        "affectsGlobalScope": false
+      },
+      "../src/customer/customer.service.ts": {
+        "version": "14fa555af20fb86868c456c0dc844ae6f721aecce3a106c399920bc8b9b1998f",
+        "signature": "8296b594c3d401f82c8af9aedda4dc3c49f8320a07c2f589cee625d237ab22d0",
+        "affectsGlobalScope": false
+      },
+      "../src/customer/customer.controller.ts": {
+        "version": "f151f33644e0c5ba0dea1ee10bf7c77c58fa702dbca293547add974efb9398e5",
+        "signature": "5526108f0b2f304d1e4a9d3c2bcf10f44f8bb2c4a7dae5ab3d47482f2f01145f",
+        "affectsGlobalScope": false
+      },
+      "../src/rental/rental.controller.ts": {
+        "version": "295b777e32b82ccc3ba91843ff99c32a2061dd9fab9ab8a3c9d5073a083a0f36",
+        "signature": "ace16a92bea4abe0943f7b59eef9d475a75b9421cce8192f69a786c173d4bc6f",
+        "affectsGlobalScope": false
+      },
+      "../src/rental/rental.module.ts": {
+        "version": "92c16f0673425328648e6b2ba0bd6cbf1772dc80d859a05906a72c3091e5e88c",
+        "signature": "94425125f9020c54628ce07cb758b92cd9dcc5239c1600119bd4df3d8d322045",
+        "affectsGlobalScope": false
+      },
+      "../src/customer/customer.module.ts": {
+        "version": "86159b1d464848ff135e3bc134abf2ee6a5862d37c90b2804e0463286e5338fa",
+        "signature": "b16fc39c01bd9a1562b59fc5bc96d07fdbc1ba20d3858c20611132fbdeb485a9",
         "affectsGlobalScope": false
       },
       "../src/vehicle/vehicle.module.ts": {
-        "version": "b73522e707cb39f490a79a21c5a681da094c4f5ee05a0ea61725f93407912462",
+        "version": "70a14532616e359d2e2a21abbd940ef2b66683d496d5a65f1dd487bb9c5d58fd",
         "signature": "f7a15173836522813424062cd80c027d9908cc1fbc989e49be94cbd408e35aeb",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "7a14c3ad1288389ec3c24f44af10d48896f15c751aede92976580a902faf0d2c",
+        "version": "1cf4cf014d0c511e00dc32e7c684edbc499025999ae2e029150b1f679c2668a3",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -6712,6 +6777,10 @@
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/app.controller.ts",
         "../src/app.service.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/customer/customer.module.ts",
+        "../src/rental/rental.module.ts",
+        "../src/rental/rentalEvent.entity.ts",
         "../src/vehicle/vehicle.controller.ts",
         "../src/vehicle/vehicle.entity.ts",
         "../src/vehicle/vehicle.module.ts",
@@ -6720,27 +6789,115 @@
       "../src/app.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
       ],
+      "../src/customer/customer.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/customer/customer.service.ts",
+        "../src/customer/dto/createCustomer.dto.ts"
+      ],
+      "../src/customer/customer.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/rental/rentalEvent.entity.ts"
+      ],
+      "../src/customer/customer.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/customer/customer.controller.ts",
+        "../src/customer/customer.repository.ts",
+        "../src/customer/customer.service.ts",
+        "../src/rental/rental.module.ts",
+        "../src/vehicle/vehicle.module.ts"
+      ],
+      "../src/customer/customer.repository.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/customer/customer.entity.ts"
+      ],
+      "../src/customer/customer.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/customer/customer.repository.ts",
+        "../src/customer/dto/createCustomer.dto.ts",
+        "../src/rental/rental.service.ts"
+      ],
+      "../src/customer/dto/createCustomer.dto.ts": [
+        "../node_modules/class-validator/types/index.d.ts"
+      ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts"
+      ],
+      "../src/rental/rental.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/rental/rental.service.ts"
+      ],
+      "../src/rental/rental.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/customer/customer.module.ts",
+        "../src/customer/customer.repository.ts",
+        "../src/customer/customer.service.ts",
+        "../src/rental/rental.controller.ts",
+        "../src/rental/rental.repository.ts",
+        "../src/rental/rental.service.ts",
+        "../src/vehicle/vehicle.module.ts",
+        "../src/vehicle/vehicle.service.ts"
+      ],
+      "../src/rental/rental.repository.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/rental/rentalEvent.entity.ts",
+        "../src/vehicle/vehicle.entity.ts"
+      ],
+      "../src/rental/rental.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/customer/customer.service.ts",
+        "../src/rental/rental.repository.ts",
+        "../src/vehicle/vehicle.service.ts"
+      ],
+      "../src/rental/rentalEvent.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../node_modules/typeorm/metadata/ColumnMetadata.d.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/vehicle/vehicle.entity.ts"
       ],
       "../src/vehicle/dto/createVehicle.dto.ts": [
         "../node_modules/class-validator/types/index.d.ts",
         "../src/vehicle/enums/fuelType.enum.ts",
         "../src/vehicle/enums/vehicleType.enum.ts"
       ],
+      "../src/vehicle/pipes/fuelTypeValidation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/vehicle/enums/fuelType.enum.ts"
+      ],
+      "../src/vehicle/pipes/vehicleTypeValidation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/vehicle/enums/vehicleType.enum.ts"
+      ],
       "../src/vehicle/vehicle.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/vehicle/dto/createVehicle.dto.ts",
+        "../src/vehicle/enums/fuelType.enum.ts",
+        "../src/vehicle/enums/vehicleType.enum.ts",
+        "../src/vehicle/pipes/fuelTypeValidation.pipe.ts",
+        "../src/vehicle/pipes/vehicleTypeValidation.pipe.ts",
         "../src/vehicle/vehicle.entity.ts",
         "../src/vehicle/vehicle.service.ts"
       ],
       "../src/vehicle/vehicle.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/rental/rentalEvent.entity.ts",
+        "../src/vehicle/enums/fuelType.enum.ts",
+        "../src/vehicle/enums/vehicleType.enum.ts"
       ],
       "../src/vehicle/vehicle.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/customer/customer.module.ts",
+        "../src/rental/rental.module.ts",
         "../src/vehicle/vehicle.controller.ts",
         "../src/vehicle/vehicle.repository.ts",
         "../src/vehicle/vehicle.service.ts"
@@ -6752,6 +6909,7 @@
       ],
       "../src/vehicle/vehicle.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/vehicle/dto/createVehicle.dto.ts",
         "../src/vehicle/vehicle.entity.ts",
         "../src/vehicle/vehicle.repository.ts"
@@ -9592,17 +9750,67 @@
       "../src/app.controller.ts": [
         "../src/app.service.ts"
       ],
+      "../src/customer/customer.controller.ts": [
+        "../src/customer/customer.entity.ts",
+        "../src/customer/customer.service.ts",
+        "../src/customer/dto/createCustomer.dto.ts"
+      ],
+      "../src/customer/customer.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/rental/rentalEvent.entity.ts"
+      ],
+      "../src/customer/customer.repository.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/customer/customer.entity.ts"
+      ],
+      "../src/customer/customer.service.ts": [
+        "../src/customer/customer.entity.ts",
+        "../src/customer/customer.repository.ts",
+        "../src/customer/dto/createCustomer.dto.ts"
+      ],
+      "../src/rental/rental.controller.ts": [
+        "../src/rental/rental.service.ts"
+      ],
+      "../src/rental/rental.repository.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/rental/rentalEvent.entity.ts",
+        "../src/vehicle/vehicle.entity.ts"
+      ],
+      "../src/rental/rental.service.ts": [
+        "../src/customer/customer.service.ts",
+        "../src/rental/rental.repository.ts",
+        "../src/vehicle/vehicle.service.ts"
+      ],
+      "../src/rental/rentalEvent.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/customer/customer.entity.ts",
+        "../src/vehicle/vehicle.entity.ts"
+      ],
       "../src/vehicle/dto/createVehicle.dto.ts": [
         "../src/vehicle/enums/fuelType.enum.ts",
         "../src/vehicle/enums/vehicleType.enum.ts"
       ],
+      "../src/vehicle/pipes/fuelTypeValidation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/vehicle/enums/fuelType.enum.ts"
+      ],
+      "../src/vehicle/pipes/vehicleTypeValidation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/vehicle/enums/vehicleType.enum.ts"
+      ],
       "../src/vehicle/vehicle.controller.ts": [
         "../src/vehicle/dto/createVehicle.dto.ts",
+        "../src/vehicle/enums/fuelType.enum.ts",
+        "../src/vehicle/enums/vehicleType.enum.ts",
         "../src/vehicle/vehicle.entity.ts",
         "../src/vehicle/vehicle.service.ts"
       ],
       "../src/vehicle/vehicle.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/rental/rentalEvent.entity.ts",
+        "../src/vehicle/enums/fuelType.enum.ts",
+        "../src/vehicle/enums/vehicleType.enum.ts"
       ],
       "../src/vehicle/vehicle.repository.ts": [
         "../node_modules/typeorm/index.d.ts",
@@ -10378,10 +10586,23 @@
       "../src/app.controller.ts",
       "../src/app.module.ts",
       "../src/app.service.ts",
+      "../src/customer/customer.controller.ts",
+      "../src/customer/customer.entity.ts",
+      "../src/customer/customer.module.ts",
+      "../src/customer/customer.repository.ts",
+      "../src/customer/customer.service.ts",
+      "../src/customer/dto/createCustomer.dto.ts",
       "../src/main.ts",
+      "../src/rental/rental.controller.ts",
+      "../src/rental/rental.module.ts",
+      "../src/rental/rental.repository.ts",
+      "../src/rental/rental.service.ts",
+      "../src/rental/rentalEvent.entity.ts",
       "../src/vehicle/dto/createVehicle.dto.ts",
       "../src/vehicle/enums/fuelType.enum.ts",
       "../src/vehicle/enums/vehicleType.enum.ts",
+      "../src/vehicle/pipes/fuelTypeValidation.pipe.ts",
+      "../src/vehicle/pipes/vehicleTypeValidation.pipe.ts",
       "../src/vehicle/vehicle.controller.ts",
       "../src/vehicle/vehicle.entity.ts",
       "../src/vehicle/vehicle.module.ts",

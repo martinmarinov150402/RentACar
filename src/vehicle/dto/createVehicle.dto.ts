@@ -1,4 +1,4 @@
-import { IsEnum, IsNotEmpty, IsNumber } from "class-validator";
+import { IsEnum, IsInt, IsNotEmpty, IsNumber, IsNumberString } from "class-validator";
 import { VehicleType } from '../enums/vehicleType.enum';
 import { FuelType } from '../enums/fuelType.enum';
 
@@ -15,7 +15,7 @@ export class CreateVehicleDTO
   model: string;
 
   @IsNotEmpty()
-  @IsNumber()
+  @IsNumberString()
   constructionYear: number;
 
   @IsNotEmpty()
@@ -23,18 +23,18 @@ export class CreateVehicleDTO
   fuelType: FuelType;
 
   @IsNotEmpty()
-  @IsNumber()
+  @IsNumberString()
   numberOfSeats: number;
 
   @IsNotEmpty()
   picture: string;
 
   @IsNotEmpty()
-  @IsNumber()
+  @IsNumberString()
   pricePerDay: number;
   
   @IsNotEmpty()
-  @IsNumber()
+  @IsNumberString()
   count: number;
   
 }

@@ -1,4 +1,8 @@
-import { Entity, BaseEntity, PrimaryGeneratedColumn, Column } from "typeorm"
+import { Customer } from "src/customer/customer.entity";
+import { RentalEvent } from "src/rental/rentalEvent.entity";
+import { Entity, BaseEntity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm"
+import { FuelType } from "./enums/fuelType.enum";
+import { VehicleType } from "./enums/vehicleType.enum";
 
 @Entity()
 export class Vehicle extends BaseEntity
@@ -32,4 +36,7 @@ export class Vehicle extends BaseEntity
 
     @Column()
     count: number;
+
+    @OneToMany(type=>RentalEvent,re=>re.vehicle,{eager:true})
+    rentedBy: RentalEvent[];
 }

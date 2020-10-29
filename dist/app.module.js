@@ -13,6 +13,10 @@ const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const vehicle_entity_1 = require("./vehicle/vehicle.entity");
 const vehicle_module_1 = require("./vehicle/vehicle.module");
+const customer_module_1 = require("./customer/customer.module");
+const rental_module_1 = require("./rental/rental.module");
+const customer_entity_1 = require("./customer/customer.entity");
+const rentalEvent_entity_1 = require("./rental/rentalEvent.entity");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -25,10 +29,12 @@ AppModule = __decorate([
                 username: 'test',
                 password: 'root',
                 database: 'CarPark',
-                entities: [vehicle_entity_1.Vehicle],
+                entities: [vehicle_entity_1.Vehicle, customer_entity_1.Customer, rentalEvent_entity_1.RentalEvent],
                 synchronize: true,
             }),
             vehicle_module_1.VehicleModule,
+            customer_module_1.CustomerModule,
+            rental_module_1.RentalModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

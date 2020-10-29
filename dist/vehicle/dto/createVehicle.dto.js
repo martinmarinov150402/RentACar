@@ -30,7 +30,7 @@ __decorate([
 ], CreateVehicleDTO.prototype, "model", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
-    class_validator_1.IsNumber(),
+    class_validator_1.IsNumberString(),
     __metadata("design:type", Number)
 ], CreateVehicleDTO.prototype, "constructionYear", void 0);
 __decorate([
@@ -40,7 +40,7 @@ __decorate([
 ], CreateVehicleDTO.prototype, "fuelType", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
-    class_validator_1.IsNumber(),
+    class_validator_1.IsNumberString(),
     __metadata("design:type", Number)
 ], CreateVehicleDTO.prototype, "numberOfSeats", void 0);
 __decorate([
@@ -49,12 +49,12 @@ __decorate([
 ], CreateVehicleDTO.prototype, "picture", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
-    class_validator_1.IsNumber(),
+    class_validator_1.IsNumberString(),
     __metadata("design:type", Number)
 ], CreateVehicleDTO.prototype, "pricePerDay", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
-    class_validator_1.IsNumber(),
+    class_validator_1.IsNumberString(),
     __metadata("design:type", Number)
 ], CreateVehicleDTO.prototype, "count", void 0);
 exports.CreateVehicleDTO = CreateVehicleDTO;

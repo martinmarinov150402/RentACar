@@ -22,13 +22,29 @@ let VehicleRepository = class VehicleRepository extends typeorm_1.Repository {
         veh.picture = picture;
         veh.pricePerDay = pricePerDay;
         veh.count = count;
-        console.log("TUKASUM");
         await veh.save();
         return veh;
     }
     async getVehicles() {
-        const result = await this.find();
+        const query = this.createQueryBuilder('vehicles');
+        const result = await query.getMany();
         return result;
+    }
+    async getVehicle(vehicleId) {
+        const query = this.createQueryBuilder('vehicle');
+        query.andWhere("vehicle.id = :vehicleId", { vehicleId });
+        return await query.getOne();
+    }
+    async deleteVehicle(vehicleId) {
+        await this.delete({ id: vehicleId });
+    }
+    async editVehicle(id, item, value) {
+        const query = this.createQueryBuilder('vehicle');
+        query.andWhere('vehicle.id = :id', { id });
+        const vehicle = await query.getOne();
+        vehicle[item] = value;
+        await vehicle.save();
+        return vehicle;
     }
 };
 VehicleRepository = __decorate([

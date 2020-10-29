@@ -9,6 +9,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.VehicleModule = void 0;
 const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
+const customer_module_1 = require("../customer/customer.module");
+const rental_module_1 = require("../rental/rental.module");
 const vehicle_controller_1 = require("./vehicle.controller");
 const vehicle_repository_1 = require("./vehicle.repository");
 const vehicle_service_1 = require("./vehicle.service");
@@ -21,6 +23,7 @@ VehicleModule = __decorate([
         ],
         controllers: [vehicle_controller_1.VehicleController],
         providers: [vehicle_service_1.VehicleService],
+        exports: [vehicle_service_1.VehicleService],
     })
 ], VehicleModule);
 exports.VehicleModule = VehicleModule;

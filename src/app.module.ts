@@ -6,6 +6,10 @@ import { VehicleController } from './vehicle/vehicle.controller';
 import { Vehicle } from './vehicle/vehicle.entity';
 import { VehicleService } from './vehicle/vehicle.service';
 import { VehicleModule } from './vehicle/vehicle.module';
+import { CustomerModule } from './customer/customer.module';
+import { RentalModule } from './rental/rental.module';
+import { Customer } from './customer/customer.entity';
+import { RentalEvent } from './rental/rentalEvent.entity';
 
 @Module({
   imports: [
@@ -16,10 +20,12 @@ import { VehicleModule } from './vehicle/vehicle.module';
       username: 'test',
       password: 'root',
       database: 'CarPark',
-      entities: [Vehicle],
+      entities: [Vehicle,Customer,RentalEvent],
       synchronize:true,
     }),
     VehicleModule,
+    CustomerModule,
+    RentalModule,
   ],
   controllers: [AppController],
   providers: [AppService],

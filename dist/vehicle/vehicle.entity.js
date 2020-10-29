@@ -10,7 +10,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Vehicle = void 0;
+const customer_entity_1 = require("../customer/customer.entity");
+const rentalEvent_entity_1 = require("../rental/rentalEvent.entity");
 const typeorm_1 = require("typeorm");
+const fuelType_enum_1 = require("./enums/fuelType.enum");
+const vehicleType_enum_1 = require("./enums/vehicleType.enum");
 let Vehicle = class Vehicle extends typeorm_1.BaseEntity {
 };
 __decorate([
@@ -53,6 +57,10 @@ __decorate([
     typeorm_1.Column(),
     __metadata("design:type", Number)
 ], Vehicle.prototype, "count", void 0);
+__decorate([
+    typeorm_1.OneToMany(type => rentalEvent_entity_1.RentalEvent, re => re.vehicle, { eager: true }),
+    __metadata("design:type", Array)
+], Vehicle.prototype, "rentedBy", void 0);
 Vehicle = __decorate([
     typeorm_1.Entity()
 ], Vehicle);
