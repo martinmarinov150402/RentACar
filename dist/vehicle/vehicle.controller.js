@@ -29,6 +29,7 @@ let VehicleController = class VehicleController {
         return await this.vehicleService.getVehicles();
     }
     async createVehicle(createVehicleDTO) {
+        console.log("Requested create");
         return await this.vehicleService.createVehicle(createVehicleDTO);
     }
     async deleteVehicle(id) {

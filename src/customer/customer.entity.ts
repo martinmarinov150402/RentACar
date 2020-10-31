@@ -16,7 +16,7 @@ export class Customer extends BaseEntity
   @Column()
   telephone: string;
 
-  @OneToMany(type => RentalEvent, rentalEvent => rentalEvent.customer, { eager: true })
+  @OneToMany(type => RentalEvent, rentalEvent => rentalEvent.customer, { eager: true,onDelete:'CASCADE' })
   rentalEvents: RentalEvent[];
   
 }

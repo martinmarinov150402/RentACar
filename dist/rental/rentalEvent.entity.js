@@ -28,7 +28,7 @@ __decorate([
     __metadata("design:type", Date)
 ], RentalEvent.prototype, "endDateTime", void 0);
 __decorate([
-    typeorm_1.ManyToOne(type => customer_entity_1.Customer, customer => customer.rentalEvents),
+    typeorm_1.ManyToOne(type => customer_entity_1.Customer, customer => customer.rentalEvents, { onDelete: 'CASCADE' }),
     __metadata("design:type", customer_entity_1.Customer)
 ], RentalEvent.prototype, "customer", void 0);
 __decorate([
@@ -36,7 +36,7 @@ __decorate([
     __metadata("design:type", Number)
 ], RentalEvent.prototype, "customerId", void 0);
 __decorate([
-    typeorm_1.ManyToOne(type => vehicle_entity_1.Vehicle, vehicle => vehicle.rentedBy),
+    typeorm_1.ManyToOne(type => vehicle_entity_1.Vehicle, vehicle => vehicle.rentedBy, { onDelete: 'CASCADE' }),
     __metadata("design:type", vehicle_entity_1.Vehicle)
 ], RentalEvent.prototype, "vehicle", void 0);
 RentalEvent = __decorate([

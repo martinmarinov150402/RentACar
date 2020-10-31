@@ -15,13 +15,13 @@ export class RentalEvent extends BaseEntity
   @Column()
   endDateTime: Date;
 
-@ManyToOne(type => Customer, customer => customer.rentalEvents)
+@ManyToOne(type => Customer, customer => customer.rentalEvents,{onDelete:'CASCADE'})
   customer: Customer;
 
   @Column()
   customerId: number;
 
-  @ManyToOne(type=>Vehicle,vehicle=>vehicle.rentedBy)
+  @ManyToOne(type=>Vehicle,vehicle=>vehicle.rentedBy,{onDelete:'CASCADE'})
   vehicle: Vehicle;
 
 }

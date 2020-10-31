@@ -37,6 +37,6 @@ export class Vehicle extends BaseEntity
     @Column()
     count: number;
 
-    @OneToMany(type=>RentalEvent,re=>re.vehicle,{eager:true})
+    @OneToMany(type=>RentalEvent,re=>re.vehicle,{eager:true,onDelete:'CASCADE'})
     rentedBy: RentalEvent[];
 }

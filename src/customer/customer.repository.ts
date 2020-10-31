@@ -12,13 +12,6 @@ export class CustomerRepository extends Repository<Customer> {
     await customer.save();
     return customer;
   }
-  async editCustomer(id: number, element: string, value: string):Promise<Customer>
-  {
-    const customer = await this.findOne(id);
-    customer[element] = value;
-    await customer.save();
-    return customer;
-  }
   async deleteCustomer(id:number):Promise<void>
   {
     await this.delete({ id });
@@ -33,5 +26,14 @@ export class CustomerRepository extends Repository<Customer> {
     const query = this.createQueryBuilder('customer');
     query.andWhere("customer.id = :id", { id });
     return await query.getOne();
+  }
+  async editCustomer(id: number, property: string, value: string):Promise<Customer>
+  {
+    const query = this.createQueryBuilder('customer');
+    query.andWhere("customer.id = :id", { id });
+    const customer = await query.getOne();
+    customer[property] = value;
+    await customer.save(); 
+    return customer;
   }
 }

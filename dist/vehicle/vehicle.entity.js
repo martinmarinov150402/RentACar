@@ -58,7 +58,7 @@ __decorate([
     __metadata("design:type", Number)
 ], Vehicle.prototype, "count", void 0);
 __decorate([
-    typeorm_1.OneToMany(type => rentalEvent_entity_1.RentalEvent, re => re.vehicle, { eager: true }),
+    typeorm_1.OneToMany(type => rentalEvent_entity_1.RentalEvent, re => re.vehicle, { eager: true, onDelete: 'CASCADE' }),
     __metadata("design:type", Array)
 ], Vehicle.prototype, "rentedBy", void 0);
 Vehicle = __decorate([

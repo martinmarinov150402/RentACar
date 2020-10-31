@@ -8,4 +8,5 @@ export declare class CustomerService {
     findCustomer(email: string): Promise<Customer>;
     deleteCustomer(id: number): Promise<void>;
     getCustomerById(id: number): Promise<Customer>;
+    editCustomer(id: number, property: string, value: string): Promise<Customer>;
 }

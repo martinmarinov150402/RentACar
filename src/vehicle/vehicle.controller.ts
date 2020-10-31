@@ -18,6 +18,7 @@ export class VehicleController {
   @Post("/create")
   async createVehicle(@Body(ValidationPipe) createVehicleDTO:CreateVehicleDTO): Promise<Vehicle>
   {
+    console.log("Requested create");
     return await this.vehicleService.createVehicle(createVehicleDTO);
   }
   @Delete("/:id")

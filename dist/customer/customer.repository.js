@@ -18,12 +18,6 @@ let CustomerRepository = class CustomerRepository extends typeorm_1.Repository {
         await customer.save();
         return customer;
     }
-    async editCustomer(id, element, value) {
-        const customer = await this.findOne(id);
-        customer[element] = value;
-        await customer.save();
-        return customer;
-    }
     async deleteCustomer(id) {
         await this.delete({ id });
     }
@@ -35,6 +29,14 @@ let CustomerRepository = class CustomerRepository extends typeorm_1.Repository {
         const query = this.createQueryBuilder('customer');
         query.andWhere("customer.id = :id", { id });
         return await query.getOne();
+    }
+    async editCustomer(id, property, value) {
+        const query = this.createQueryBuilder('customer');
+        query.andWhere("customer.id = :id", { id });
+        const customer = await query.getOne();
+        customer[property] = value;
+        await customer.save();
+        return customer;
     }
 };
 CustomerRepository = __decorate([

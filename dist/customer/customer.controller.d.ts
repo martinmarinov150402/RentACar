@@ -7,4 +7,7 @@ export declare class CustomerController {
     createCustomer(createCustmerDTO: CreateCustomerDTO): Promise<Customer>;
     findCustomer(email: string): Promise<Customer>;
     deleteCustomer(id: number): Promise<void>;
+    editCustomerFN(id: number, value: string): Promise<Customer>;
+    editCustomerEmail(id: number, value: string): Promise<Customer>;
+    editCustomerTelephone(id: number, value: string): Promise<Customer>;
 }

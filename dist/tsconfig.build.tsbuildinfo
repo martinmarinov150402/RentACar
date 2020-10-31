@@ -3122,17 +3122,17 @@
         "affectsGlobalScope": false
       },
       "../src/rental/rentalEvent.entity.ts": {
-        "version": "74ed52caa2293446d06e8accad471371e69a21cc6731a4056c8733dedf0c60d6",
+        "version": "7765a68a6df4806b80143c2b66b8a2312af25f03f676a3230dd03f6a929fd9c5",
         "signature": "b9c8a18d3dfe61da642fe4e850c256be24dd0e4f6037fe79a16f0c991289bb35",
         "affectsGlobalScope": false
       },
       "../src/customer/customer.entity.ts": {
-        "version": "9693483c3c56551fa6f1f14e7f28ba20826f90b500603beb8065995f8c0c29cf",
+        "version": "4d8a8335aba23904bbb76d6a67eec35c38da42c78d8a369bf85cfcef50fb765d",
         "signature": "b25b556cae3ba1e13a780d8b0a456cc16d87109a6453e0812bea6d0a17f5af8c",
         "affectsGlobalScope": false
       },
       "../src/vehicle/vehicle.entity.ts": {
-        "version": "2c221f899f232c7a6c6d901db0b40c5c4a28c567c13d758e8b5cc8c2cb9710bf",
+        "version": "602a64eaebc374ff4d1cf49a05e07e48d79250bfcd4ddffdc00680ddbff60abb",
         "signature": "7a8290c3f6bd6b1162e7369a1658b27cf406e4edd4f7d17920cae4e2099b207a",
         "affectsGlobalScope": false
       },
@@ -3147,7 +3147,7 @@
         "affectsGlobalScope": false
       },
       "../src/vehicle/vehicle.controller.ts": {
-        "version": "91aca7511b5126fa9d1255d0cd7759511055b7b3bee846720ce7d7a1296a43d7",
+        "version": "72dc54bcdbb7dd6147f04bf918d6ae4cb9afa6fd7fb9d3932a261c2129187209",
         "signature": "bf4de4e78d05ede85fab05fedc5bb71db78acbe28845385984b4e9cbe1db3af7",
         "affectsGlobalScope": false
       },
@@ -3162,8 +3162,8 @@
         "affectsGlobalScope": false
       },
       "../src/customer/customer.repository.ts": {
-        "version": "d784531c29888f7a0637b58b0caf078cc9180869de7e85cb46e69a24af2c3ae9",
-        "signature": "d7878c8f5246910da4e0d602eb3e6eb1fcbe74700b00bdfef4d2b4389e836401",
+        "version": "cd3591245319d5ce4fbb63c243375da85e98bf576032dcdfa39af45de581776c",
+        "signature": "1c63a72cc189dd0dfb245c8cc3703d4970c0b63d3df53ebe7bc11f5d0d14ec19",
         "affectsGlobalScope": false
       },
       "../src/customer/dto/createCustomer.dto.ts": {
@@ -3172,13 +3172,13 @@
         "affectsGlobalScope": false
       },
       "../src/customer/customer.service.ts": {
-        "version": "14fa555af20fb86868c456c0dc844ae6f721aecce3a106c399920bc8b9b1998f",
-        "signature": "8296b594c3d401f82c8af9aedda4dc3c49f8320a07c2f589cee625d237ab22d0",
+        "version": "d51efeefd55a0876a733a0b3d29b67041cede26d3a6604793950838eed477eb6",
+        "signature": "e95e66d12144210e9a22248765fd2d506ea9d4b92052bea662a0e4392a0a31e5",
         "affectsGlobalScope": false
       },
       "../src/customer/customer.controller.ts": {
-        "version": "f151f33644e0c5ba0dea1ee10bf7c77c58fa702dbca293547add974efb9398e5",
-        "signature": "5526108f0b2f304d1e4a9d3c2bcf10f44f8bb2c4a7dae5ab3d47482f2f01145f",
+        "version": "ce528e968c20cd8bb56572fdd55e38105b72c727e3a907a1588216b77dc5a3ac",
+        "signature": "9fc4f4630dd7d5fd8c90bf8bb4f9bff42e1ccd621cf2d80c8e3f18db8a1c3b70",
         "affectsGlobalScope": false
       },
       "../src/rental/rental.controller.ts": {
@@ -3387,7 +3387,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "30f450c04dca4cdc6bf920128d7415c67a50e69d71dcf0c15a56fa6559feafe6",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },

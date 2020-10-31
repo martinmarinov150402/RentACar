@@ -30,6 +30,15 @@ let CustomerController = class CustomerController {
     async deleteCustomer(id) {
         return await this.customerService.deleteCustomer(id);
     }
+    async editCustomerFN(id, value) {
+        return await this.customerService.editCustomer(id, "fullName", value);
+    }
+    async editCustomerEmail(id, value) {
+        return await this.customerService.editCustomer(id, "email", value);
+    }
+    async editCustomerTelephone(id, value) {
+        return await this.customerService.editCustomer(id, "telephone", value);
+    }
 };
 __decorate([
     common_1.Post('/create'),
@@ -52,6 +61,27 @@ __decorate([
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], CustomerController.prototype, "deleteCustomer", null);
+__decorate([
+    common_1.Patch("/:id/fullName/:value"),
+    __param(0, common_1.Param("id", common_1.ParseIntPipe)), __param(1, common_1.Param("value")),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number, String]),
+    __metadata("design:returntype", Promise)
+], CustomerController.prototype, "editCustomerFN", null);
+__decorate([
+    common_1.Patch("/:id/email/:value"),
+    __param(0, common_1.Param("id", common_1.ParseIntPipe)), __param(1, common_1.Param("value")),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number, String]),
+    __metadata("design:returntype", Promise)
+], CustomerController.prototype, "editCustomerEmail", null);
+__decorate([
+    common_1.Patch("/:id/telephone/:value"),
+    __param(0, common_1.Param("id", common_1.ParseIntPipe)), __param(1, common_1.Param("value")),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number, String]),
+    __metadata("design:returntype", Promise)
+], CustomerController.prototype, "editCustomerTelephone", null);
 CustomerController = __decorate([
     common_1.Controller('customer'),
     __metadata("design:paramtypes", [customer_service_1.CustomerService])

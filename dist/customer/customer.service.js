@@ -35,6 +35,9 @@ let CustomerService = class CustomerService {
     async getCustomerById(id) {
         return await this.customerRepository.getCustomerById(id);
     }
+    async editCustomer(id, property, value) {
+        return await this.customerRepository.editCustomer(id, property, value);
+    }
 };
 CustomerService = __decorate([
     common_1.Injectable(),

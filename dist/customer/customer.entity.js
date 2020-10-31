@@ -31,7 +31,7 @@ __decorate([
     __metadata("design:type", String)
 ], Customer.prototype, "telephone", void 0);
 __decorate([
-    typeorm_1.OneToMany(type => rentalEvent_entity_1.RentalEvent, rentalEvent => rentalEvent.customer, { eager: true }),
+    typeorm_1.OneToMany(type => rentalEvent_entity_1.RentalEvent, rentalEvent => rentalEvent.customer, { eager: true, onDelete: 'CASCADE' }),
     __metadata("design:type", Array)
 ], Customer.prototype, "rentalEvents", void 0);
 Customer = __decorate([

@@ -30,4 +30,8 @@ export class CustomerService {
   {
     return await this.customerRepository.getCustomerById(id);
   }
+  async editCustomer(id: number, property: string, value: string)
+  {
+    return await this.customerRepository.editCustomer(id, property, value);
+  }
 }
